@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+.header-content {
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+header {
+    background: rgb(247, 247, 247);
+}
+
+/* navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-title img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.nav-title {
+    color: #111111;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 32px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-1 {
+    color: #FEA301;
+}
+
+.nav-2 {
+    color: #01ACFD;
+}
+
+.nav-3 {
+    color: #05D4DF;
+}
+
+.nav-4 {
+    color: #5D58EF;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 36px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: none;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-text {
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+}
+
+.banner-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.text-brown {
+    color: #FEA301;
+}
+
+.text-blue {
+    color: #01ACFD;
+}
+
+.banner-description {
+    color: #111111;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.enroll-btn {
+    margin-top: 22px;
+    background-color: Black;
+    ;
+}
+
+.banner-img img {
+    width: 420px;
+}
+
+main {
+    background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+/* Curriculum section */
+.curriculum-section {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.curriculum-heading {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+
+.card-content {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.card {
+    padding: 45px 30px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+}
+
+.card-1 {
+    border: 0.94px solid rgb(222, 245, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-2 {
+    border: 0.94px solid rgb(255, 244, 220);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-3 {
+    border: 0.94px solid rgb(242, 232, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-title {
+    color: #202020;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.card-more {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
