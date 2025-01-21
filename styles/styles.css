@@ -19,10 +19,6 @@
     padding-top: 20px;
 }
 
-header {
-    background: rgb(247, 247, 247);
-}
-
 /* navbar styles */
 .navbar {
     display: flex;
@@ -201,3 +197,106 @@ main {
     font-weight: 700;
     text-decoration: none;
 }
+.icon-content{
+    text-align: center;
+    padding-top: 70px;
+}
+.awesome-icon{
+    background-color: Orange;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* stories section */
+#stories-container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.stories-content{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.stories-left-col img{
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(217, 217, 217);
+}
+.card-btn{
+    padding: 12px 18px;
+    background-color: #3CD8E8;
+    border-radius: 47px;
+    border: none;
+    transform: translateY(-46px);
+}
+.btn-date{
+    padding: 12px 18px;
+    background-color: #3CD8E8;
+    border-radius: 47px;
+    border: none;
+    transform: translateY(-38px);
+}
+.stories-btn-content{
+    padding: 15px;
+}
+.stories-btn-content p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.stories-title{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 45px;
+}
+.stories-left-col{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-left-col img{
+    width: 100%;
+}
+.stories-left-content{
+    padding: 20px;
+}
+.stories-left-content h4{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.stories-left-content p{
+    color: #666666;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.right-container{
+    display: flex;
+    gap: 10px;
+   
+}
+.right-col-1{
+    margin-bottom: 20px;
+    
+}
+.left-col-1{
+    margin-bottom: 20px;
+}
+.left-col-1,
+.left-col-2,
+.right-col-1,
+.right-col-2, img{
+    border-radius: 16px 16px 0px 0px;
+    background: rgb(255, 255, 255);
+}
+.stories-card{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
