@@ -14,6 +14,7 @@
 
 /* header styles */
 .header-content {
+    max-width: 1440px;
     width: 1160px;
     margin: 0 auto;
     padding-top: 20px;
@@ -210,6 +211,7 @@ main {
 }
 /* stories section */
 #stories-container{
+    max-width: 1440px;
     width: 1160px;
     margin: 0 auto;
 }
@@ -223,6 +225,9 @@ main {
     background: url(),rgb(217, 217, 217);
 }
 .card-btn{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
     padding: 12px 18px;
     background-color: #3CD8E8;
     border-radius: 47px;
@@ -230,11 +235,20 @@ main {
     transform: translateY(-46px);
 }
 .btn-date{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
     padding: 12px 18px;
     background-color: #3CD8E8;
     border-radius: 47px;
     border: none;
     transform: translateY(-38px);
+}
+.btn-1{
+    background-color: #95B226;
+}
+.btn-2{
+    background-color: #5D58F0;
 }
 .stories-btn-content{
     padding: 15px;
@@ -242,6 +256,9 @@ main {
 .stories-btn-content p{
     margin-bottom: 20px;
     text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
 }
 .stories-title{
     color: #000000;
@@ -264,7 +281,8 @@ main {
     color: #000000;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 45px;
 }
 .stories-left-content p{
     color: #666666;
@@ -295,6 +313,83 @@ main {
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
+.stories-btn{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+/* footer styles */
+.footer-container{
+    max-width: 1440px;
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 50px 20px;
+
+}
+.footer{
+    margin: 0 auto;
+    background: rgb(1, 172, 253);
+}
+.footer-kids{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: -5px;
+    
+}
+.footer-kids img{
+    width: 50px;
+    background: none;
+}
+.footer-icon h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer-content p{
+    margin-top: 30px;
+}
+.footer-content h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-content li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.footer-content a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.icon{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+   
+}
+.icon a{
+    border-radius: 5px;
+    padding: 5px;
+}
+.icon .icon-1{
+    background-color: #3B5998;
+}
+.icon .icon-2{
+    background-color: #EA4C89;
+}
+.icon .icon-3{
+    background-color: #1DA1F2;
+}
+.icon .icon-4{
+    
+    background-color: #DD4B39;
+}
+
+/* mobile device responsive */
 
 
 
